@@ -91,18 +91,4 @@ a.active,a:hover {
     #check:checked ~ ul{
         left: 0;
     }
-    .description{
-        border-style: solid;
-        color: yellow;
-    }
-    .food{
-        margin-left: 0;
-    }
-    .drinks{
-        margin-right: 0;
-    }
-    .footer{
-        margin-bottom: 0;
-        text-align: center;
-    }
 }
