@@ -114,131 +114,33 @@ a.active,a:hover {
         left: 0;
     }
 }
-/* BODY*/
-/* BANNER|HERO SECTION */
-.hero {
-    /* declares the position, size, background image, and color for content. */
-    background-image: url('background.jfif'); /* Add your background image */
-    background-size: cover;
-    background-position: center;
-    color: #ffffff;
-    text-align: center;
-    padding: 300px 0; /* Increased padding for a taller hero section */
-    background-color: #333333; /* Dark Gray */ /* Increase the padding top and bottom */
-}
-.hero-content {
-    /* Makes the content only a certain size and position within the banner*/
-    max-width: 800px;
-    margin: 0 auto;
-}
 
-.hero h1 {
-    /* For the h1 tag in the hero class, there is a certain font-size and distance from the bottom. */
-    font-size: 3em;
-    margin-bottom: 20px;
+/* BODY LAYOUT */
+.outside {
+    width: 100%;
+    height: 1000px;
+    background-color: lightgray;
 }
-/* PANELS */
-.panels {
+.outside h2 {
+    padding: 15px;
+    font-size: 35px;
     display: flex;
     justify-content: center;
-    align-items: center; /* Vertically center items */
-    height: 60vh; /* Adjust the height as needed */
-    margin: 50px 0;
+    align-items: center;
+}
+.container-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    border: 2px solid #ccc; /* Border color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    background-color: #f9f9f9; /* Background color */
+    padding: 20px; /* Padding to create space inside the container */
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
-.panel {
-    flex: 0 0 300px;
-    height: 500px;
-    border: 1px solid #ccc;
-    margin: 0 10px;
-    background-color: #f9f9f9;
-    text-align: center;
-    position: relative;
-}
-
-.panel img {
-    max-width: 100%;
-    height: auto;
-    max-height: 50%; /* Adjust the max-height to your preference */
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.panel h2 {
-    font-size: 2em;
-    margin-top: 20%;
-}
-
-.panel p {
-    margin-bottom: 20px;
-}
-
-.panel a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #0082e6;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-}
-
-.panel a:hover {
-    background-color: #1b9bff;
-}
-
-.panel button {
-    background-color: white;
-    color: #00274d;
-    display: block;
-    text-align: center;
-    font-size: 16px;
-    width: 100%;
-    height: 40px;
-    margin-top: 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.third-section {
-    background-color: #333333;
-    color: #ffffff;
-    text-align: center;
-    padding: 100px 0;
-}
-
-.third-section .content {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.third-section h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-.third-section p {
-    margin-bottom: 30px;
-}
-
-.third-section a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #0082e6;
-    color: #ffffff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
-}
-
-.third-section a:hover {
-    background-color: #1b9bff;
-}
 
 /*Footer*/
 .container {
